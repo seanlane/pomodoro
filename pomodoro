@@ -20,7 +20,7 @@ else:
 display = print
 this_dir = os.path.dirname(__file__)
 ALARM = "{}/../../clock.mp3".format(this_dir)
-DATA_FILENAME = os.getenv("HOME") + "/.pomodoro"
+DATA_FILENAME = os.getenv("HOME") + "/Dropbox/Pomodoro/data"
 DEV_NULL = open("/dev/null","w")
 
 
